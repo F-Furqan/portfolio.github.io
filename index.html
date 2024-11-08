@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/8921a61810.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Furqan Bashir</title>
+    <style>
+      .fa-solid {
+        display: none;
+      }
+      @media only screen and (max-width: 600px) {
+        .fa-solid {
+          display: block;
+          font-size: 25px;
+          cursor: pointer;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo.png" alt="noimage" class="logo" />
+
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#serviecs">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact me</a></li>
+            <i class="fa-solid fa-xmark hide" onclick="closemenu()"></i>
+          </ul>
+          <!-- Menu icon -->
+          <i
+            class="fa-solid fa-ellipsis-vertical hide"
+            onclick="openmenu()"
+          ></i>
+          <!-- <i class="hide fa-regular fa-bars" onclick="openmenu()"></i> -->
+        </nav>
+
+        <header class="header-text">
+          <p>Backend Web Developer</p>
+          <h1>Hi, I'm <span>Furqan Bashir</span></h1>
+          <p class="word"></p>
+        </header>
+      </div>
+    </div>
+
+    <!-- Header Section Complete -->
+
+    <!-- About Section Start From Here -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-class-1">
+            <img src="images/user.jpg.jpg" alt="user" />
+          </div>
+          <div class="about-class-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+                Hi, I'm Muhammad Furqan Bashir, I graduated as a software engineer and have been working for 3 years
+                 as a Laravel/PHP developer. I developed alot of sites for my clients and have a list of
+                  satisfied clients.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Backend Developer</span><br />PHP/Laravel</li>
+                <li><span>Soft Skills</span><br />
+                <ul>
+                    <li>Communication</li>
+                    <li>Work ethic</li>
+                    <li>Problem Solving</li>
+                    <li>Creativity</li>
+
+                    
+
+                </ul>
+                </li>
+                
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>2021-2022</span><br />PHP Experience</li>
+                <li><span>2022-2023</span><br />2 Year Experience as Associate Software Engineer at @theSoftHub</li>
+               
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>Bachelor of Science</span><br />BS Software Engineering- 2016-2021 (Superior University)
+                </li>
+                <li><span>Certification</span><br />: Full Stack Web Development Couse 2020 From MUQIT/li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- My Skills Start From Here -->
+
+    
+    <div id="skills" class="container">
+
+
+ 
+      
+        <div class="list">
+          <h2>My Skiils</h2>
+          <div class="col1">
+          <ul>
+            <li><span>HTML</span></li>
+            <li><span>CSS</span></li>
+            <li><span>Bootstrap</span></li>
+            <li><span>javascript</span></li>
+      
+          </ul>
+        </div>
+
+            <div class="col2">
+                <ul>
+                 
+                  <li><span>SQL</span></li>
+                  <li><span>PHP</span></li>
+                  <li><span>Laravel</span></li>
+                   <li><span>Git</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- My Skills Ends here -->
+
+    <!-- About Section Ends Here -->
+
+    <!-- Service Section Start From Here -->
+
+    <div id="serviecs">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fas fa-code"></i>
+            <h2>Web Development</h2>
+            <p>
+                I deliver comprehensive web development services that use the most up-to-date practices and framework.
+            </p>
+            <!-- <a href="#">Learn More</a> -->
+          </div>
+
+          <div>
+            <i class="fas fa-wrench"></i>
+            <h2>Web Maintainance</h2>   
+            <p>
+                i maintain your running Websites.i have maintenance packages are monthly plans/packages that everyone
+                can afford. i offer this service for maintaining, improving, and supporting your business
+            </p>
+            <!-- <a href="#">Learn More</a> -->
+          </div>
+
+          <div>
+            <i class="fas fa-link"></i>
+            <h2>API Integration</h2>
+            <p>
+                i provide the creation and integration of a API for your platform or app, you can streamline
+                 your operations and link your applications.<!-- i will ensure that your company is linked with
+                vital data and information by utilising secure API connectivity. -->
+            </p>
+            <!-- <a href="#">Learn More</a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- My Services Ends Here  -->
+
+    <!-- My Previous Work Start From Here -->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+
+        <div class="work-list">
+          <div class="work">
+            <img src="images/oz.png" alt="ozwebdevelopment"/>
+
+            <div class="layer">
+              <h3>Oz web development</h3>
+              <p>
+                Oz website is fully customized content management site
+              </p>
+              <a href="https://ozwebdevelopment.com.au/" target="_blank"><i class="fas fa-link"></i>
+              </a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/temps.png" alt="tempmail"/>
+
+            <div class="layer">
+              <h3>TempMails</h3>
+              <p>
+                Temp mail is a temporary mail system where users can receive emails even with
+                attachments and users can use it for a short period to perform their daily tasks
+              </p>
+              <a href="https://tempmails.net/" target="_blank"><i class="fas fa-link"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/free.png" alt="free background remover" />
+
+            <div class="layer">
+              <h3>Backgroun Remover</h3>
+              <p>
+                is the online tool site where user can remove their image
+                background with just some clicks. Users can download HD images too by buying packages
+              </p>
+              <a href="https://freebackgroundremover.com/" target="_blank"><i class="fas fa-link"></i></a>
+            </div>
+          </div>
+
+
+          <!-- New Code Start From Here -->
+
+          <div class="work">
+            <img src="images/auto.png" alt="free background remover" />
+
+            <div class="layer">
+              <h3>Perth Auto Repair</h3>
+              <p>
+                is the service based site for client to sell their services 
+              </p>
+              <a href="https://perthautorepair.com.au/" target="_blank"><i class="fas fa-link"></i></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/muqit.png" alt="muqit" />
+
+            <div class="layer">
+              <h3>Muqit</h3>
+              <p>
+                is a home services-based website where a client can book their slot and
+                hire our technicians
+              </p>
+              <a href="https://www.muqit.com/" target="_blank"><i class="fas fa-link"></i></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/marii.png" alt="free background remover"/>
+
+            <div class="layer">
+              <h3>MariGold</h3>
+              <p>
+                is a local area wholesale grocery application where shopkeepers can order their stock
+              </p>
+              <a href="https://apkpure.com/marigold-online-delivery-app/com.janidev.marigoldapp" target="_blank"><i class="fas fa-link"></i></a>
+            </div>
+          </div>
+
+
+          <!-- New Code Ends Here -->
+        </div>
+
+        <!-- <a href="#" class="btn">See More</a> -->
+      </div>
+    </div>
+
+    <!-- My Work Ends Here -->
+
+    <!-- Contact Us Section Start From Here -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-envelope"></i>bs.furqanbashir@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i> +971567138826</p>
+
+            <div class="social-icons">
+              <a href="https://pk.linkedin.com/in/furqan-bashir-27b51013a" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="furqan.pdf" download class="btn btn2">Download CV</a>
+          </div>
+
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyright Start From Here -->
+      <div class="copyright">
+        <p>Copyright &copy Furqan Bashir</p>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+
+    <script type="text/javascript">
+      //  About me start from here
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+
+      // About Me Ends Here
+
+      // Typing Text Start From Here
+      var words = [
+
+         "FullStack Web Developer",
+          "HTML/CSS/Javascript",
+          "Bootstrap/React",
+           "SQL/No SQL/Firebase",
+           "PHP/LARAVEL"
+ 
+
+         
+        ],
+        part,
+        i = 0,
+        offset = 0,
+        len = words.length,
+        forwards = true,
+        skip_count = 0,
+        skip_delay = 15,
+        speed = 70;
+      var wordflick = function () {
+        setInterval(function () {
+          if (forwards) {
+            if (offset >= words[i].length) {
+              ++skip_count;
+              if (skip_count == skip_delay) {
+                forwards = false;
+                skip_count = 0;
+              }
+            }
+          } else {
+            if (offset == 0) {
+              forwards = true;
+              i++;
+              offset = 0;
+              if (i >= len) {
+                i = 0;
+              }
+            }
+          }
+          part = words[i].substr(0, offset);
+          if (skip_count == 0) {
+            if (forwards) {
+              offset++;
+            } else {
+              offset--;
+            }
+          }
+          $(".word").text(part);
+        }, speed);
+      };
+
+      $(document).ready(function () {
+        wordflick();
+      });
+      // Typing Text Ends Here
+
+      // Navigation Code Start From Here
+
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+      // Nvigation Code Ends Here
+    </script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbwZ-WaBZB5dLQ9saQXQ8ntsshyJ0Yb8HQmCLa9PEIXZQZHRu1jgHcl9VVzP4_J_wcLTTQ/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) });
+        //   New Code Start From Here
+
+        msg.innerHTML = "Message Sent Successfully";
+        setTimeout(function () {
+          msg.innerHTML = "";
+        }, 5000);
+        form
+          .reset()
+
+          // New Code Ends Here
+          .then((response) => {
+            msg.innerHTML = "Message Sent Successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
